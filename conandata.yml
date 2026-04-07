@@ -1,0 +1,4 @@
+sources:
+  "1.84-wip":
+    url: "https://github.com/CedricGuillemet/ImGuizmo/archive/a15acd87a3f3241a29ea1363ceafc680dca3a96b.zip"
+    sha256: "b24463efbe7541907f87e7de0fa3e81e55a095387c4c5e4aff3091fd3b3c9c21"

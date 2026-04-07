@@ -1,0 +1,8 @@
+build
+build.*
+
+test_package/CMakeUserPresets.json
+
+.DS_Store
+
+.claude

@@ -8,7 +8,7 @@ required_conan_version = ">=2.0.9"
 
 class ImGuizmoConan(ConanFile):
     name = "imguizmo"
-    version = "1.84-wip"
+    version = "1.10"
     description = "Immediate mode 3D gizmo for scene editing and other controls based on Dear Imgui"
     license = "MIT"
     url = "https://github.com/triadastudio/conan-imguizmo"
@@ -34,7 +34,7 @@ class ImGuizmoConan(ConanFile):
         cmake_layout(self, src_folder="src")
 
     def requirements(self):
-        self.requires("imgui/1.92.6", transitive_headers=True)
+        self.requires("imgui/1.92.8", transitive_headers=True)
 
     def source(self):
         get(self, **self.conan_data["sources"][self.version], strip_root=True)

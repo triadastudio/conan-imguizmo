@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.15)
 project(imguizmo CXX)
 
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
-set(SOURCE_DIR src)
+set(SOURCE_DIR src/src)
 file(GLOB SOURCE_FILES ${SOURCE_DIR}/*.cpp)
 file(GLOB HEADER_FILES ${SOURCE_DIR}/*.h)
 

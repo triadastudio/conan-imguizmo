@@ -1,4 +1,7 @@
 sources:
+  "1.10":
+    url: https://github.com/CedricGuillemet/ImGuizmo/archive/b796ac3b861afc6e91ca74e4611effd9c9527367.zip
+    sha256: "66a506527cec8974f08ddc79368f041abd5ffb9cb81f398261d5fbfb03cfe720"
   "1.84-wip":
     url: "https://github.com/CedricGuillemet/ImGuizmo/archive/a15acd87a3f3241a29ea1363ceafc680dca3a96b.zip"
     sha256: "b24463efbe7541907f87e7de0fa3e81e55a095387c4c5e4aff3091fd3b3c9c21"
